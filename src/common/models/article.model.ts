@@ -10,8 +10,8 @@ import {
   BelongsToMany,
 } from 'sequelize-typescript';
 import { ApiProperty } from '@nestjs/swagger';
-import { ArticleComments } from 'src/articles/models/article-comments.model';
-import { Comment } from 'src/comments/models/comment.model';
+import { ArticleComments } from 'src/common/models/article-comments.model';
+import { Comment } from 'src/common/models/comment.model';
 
 @Table
 export class Article extends Model {

@@ -1,4 +1,4 @@
-import { Article } from '../models/article.model';
+import { Article } from 'src/common/models/article.model';
 
 export class GetArticlesDto {
   articles: Article[];
