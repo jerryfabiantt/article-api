@@ -1,6 +1,6 @@
 ## Description
 
-[Nest] Article and Comments Repository
+Article and Comments Repository
 
 ## Installation
 
