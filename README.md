@@ -1,6 +1,7 @@
 ## Description
 
-Article and Comments Repository
+Article and Comments Repository.
+After running project locally visit http://localhost:3000/api-docs#/ for api documentation
 
 ## Installation
 
