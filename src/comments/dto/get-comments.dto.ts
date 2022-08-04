@@ -1,4 +1,4 @@
-import { Comment } from '../models/comment.model';
+import { Comment } from 'src/common/models/comment.model';
 
 export class GetCommentsDto {
   comments: Comment[];

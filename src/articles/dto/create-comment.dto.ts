@@ -18,10 +18,9 @@ export class CreateCommentDto {
   @IsString()
   content: string;
 
-  @ApiProperty()
-  @IsNotEmpty()
+  @IsOptional()
   @IsNumber()
-  articleId: number;
+  articleId?: number;
 
   @ApiProperty()
   @IsOptional()

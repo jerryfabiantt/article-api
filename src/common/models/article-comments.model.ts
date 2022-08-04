@@ -6,8 +6,8 @@ import {
   ForeignKey,
   AutoIncrement,
 } from 'sequelize-typescript';
-import { Article } from 'src/articles/models/article.model';
-import { Comment } from 'src/comments/models/comment.model';
+import { Article } from 'src/common/models/article.model';
+import { Comment } from 'src/common/models/comment.model';
 
 @Table
 export class ArticleComments extends Model {

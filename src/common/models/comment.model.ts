@@ -11,7 +11,7 @@ import {
   BelongsTo,
 } from 'sequelize-typescript';
 import { ApiProperty } from '@nestjs/swagger';
-import { Article } from 'src/articles/models/article.model';
+import { Article } from 'src/common/models/article.model';
 
 @Table
 export class Comment extends Model {
